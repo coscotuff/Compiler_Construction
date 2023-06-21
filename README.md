@@ -3,11 +3,11 @@
 - This is the github repository for a working compiler for a unique C-like langauge, _ErPlag_. The custom design specifics of the language have been mentioned in the _language_specifications.pdf_ file. The project has been made for the purposes of the 2022-2023 offering of the course CS-F363 (Compiler Construction) at BITS Pilani under instructor Vandana Agarwal. This project includes the implementation of all of the theoretical modules of a compiler: lexical analyser, syntax analyser (parser), semantic analyser, and code generator.
 
 The language supports features such as:
-    - Arithmetic and boolean expressions
-    - Strongly typed language
-    - Returning multiple values from a function
-    - Static scoping of variables
-    - Assignment, I/O, Declarative, Iterative, Conditional, Function call statements
+- Arithmetic and boolean expressions
+- Strongly typed language
+- Returning multiple values from a function
+- Static scoping of variables
+- Assignment, I/O, Declarative, Iterative, Conditional, Function call statements
 
 
 ## _Note: All files on this repository are for educational purpose solely._
