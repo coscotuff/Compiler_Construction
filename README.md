@@ -19,16 +19,12 @@ The compiler can be run by following the following steps:
     - Open the project directory on a Linux terminal, and run:
       ```
       > make
-      ```
     - Execute the following command:
-      ```
       > ./compiler <testcase_file.txt> <generated_code.asm>
-      ```
     - Where:
         - <testcase_file.txt> could be replaced with any .txt file. For performing lexical, syntactic, semantic and execution checks, files *t[1-6].txt, ts[1-10].txt, or c[1-10].txt* can be run (in case the user is curious :D). Note these contain lexical, syntactic and semantic errors for testing the robustness of the compiler.
         - <generated_code.asm> is the x86 generated executable code. It could be replaced with any .asm file name. Note that this file will only be generated if the input .txt file is correct lexically, syntactically, and semantically.
     -  To run the generated .asm file, execute the following command:
-        ```
         > nasm -felf64 <generated_code.asm> && ld code.o && ./a.out
         ```
 _Note: This project has been developed using **gcc version 11.3.0 ~ ubuntu 22.04** and **nasm version 2.14.02**. Please ensure compatibility with these versions on your system prior to testing._
