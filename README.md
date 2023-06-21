@@ -10,7 +10,7 @@ The language supports features such as:
     - Assignment, I/O, Declarative, Iterative, Conditional, Function call statements
 
 
-##_Note: All files on this repository are for educational purpose solely._
+## _Note: All files on this repository are for educational purpose solely._
 
 ## How to run?
 
