@@ -17,7 +17,6 @@ The language supports features such as:
 The compiler can be run by following the following steps:
 
     - Open the project directory on a Linux terminal, and run:
-      ```
       > make
     - Execute the following command:
       > ./compiler <testcase_file.txt> <generated_code.asm>
@@ -26,6 +25,6 @@ The compiler can be run by following the following steps:
         - <generated_code.asm> is the x86 generated executable code. It could be replaced with any .asm file name. Note that this file will only be generated if the input .txt file is correct lexically, syntactically, and semantically.
     -  To run the generated .asm file, execute the following command:
         > nasm -felf64 <generated_code.asm> && ld code.o && ./a.out
-        ```
+        
 _Note: This project has been developed using **gcc version 11.3.0 ~ ubuntu 22.04** and **nasm version 2.14.02**. Please ensure compatibility with these versions on your system prior to testing._
 - Finally, cheers and shoutout to my teammates **_Harsh, Hrishikesh, Antriksh, and Kaustab_** for their contributions to the project. It is all those little steps that make the journey complete. The journey is the reward, and my journey with them has been in truly invaluable.
